@@ -19,29 +19,21 @@ int main(){
         scanf("%d", &nums[i]);
     }
 
-    int k = 1;
-    int resul[k];
-    resul[0] = nums[0];
-    int contagem = 1;
-    int j=1;
-
+    int j = 0;
     for(i=0; i<n; i++){
-        if(resul[i] < nums[j]){
-            k++;
-            contagem++;
-            resul[i] = nums[j];
-            j++;
+        if(i == 0 || nums[i] != nums[i-1]) {
+            nums[j++] = nums[i];
         }
     }
 
-    printf("\nsolucao:\n%d\n", contagem);
+    printf("\nsolucao:\n%d\n", j);
 
-    for(j=0; j<k; j++){
-        printf("%d ", resul[j]);
+    for(i=0; i<j; i++){
+        printf("%d ", nums[i]);
     }
 
-}
 
+}
 
 /*
 Questao 2. Remover Duplicatas de Vetor Ordenado
