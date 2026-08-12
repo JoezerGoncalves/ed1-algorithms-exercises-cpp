@@ -8,28 +8,29 @@ As implementações foram desenvolvidas no **Dev-C++** e organizadas na estrutur
 ---
 
 ## 📂 Estrutura do Repositório
+```text
 ├── src/
-│    └──main/
-│       └──cpp/
-│           └──dev/
-│               └──joezer/
-│                   └──exercises/
-│                       ├──list01_algorithms
-│                       |                 ├──  questao01_two_sum.c
-│                       |                 ├── questao02_remover_duplicatas.c
-│                       |                 ├── questao03_inverter_string.c
-│                       |                 ├── questao04_mover_zeros.c
-│                       |                 ├── questao05_elemento_majoritario.c
-│                       |                 ├── questao06_mariana_conta.c
-│                       |                 └── questao07_datas_duvidosas.c
-│                       ├──listExtra01_11_08_2026
-│                       |                 ├── Exer01SomaCumulativadeValor.c
-│                       |                 └── Exer02MelhorMomentoCompra.c
-│                       └──list02_algorithms
+│   └── main/
+│       └── cpp/
+│           └── dev/
+│               └── joezer/
+│                   └── exercises/
+│                       ├── list01_algorithms
+│                       │   ├── questao01_two_sum.c
+│                       │   ├── questao02_remover_duplicatas.c
+│                       │   ├── questao03_inverter_string.c
+│                       │   ├── questao04_mover_zeros.c
+│                       │   ├── questao05_elemento_majoritario.c
+│                       │   ├── questao06_mariana_conta.c
+│                       │   └── questao07_datas_duvidosas.c
+│                       ├── listExtra01_11_08_2026
+│                       │   ├── Exer01SomaCumulativadeValor.c
+│                       │   └── Exer02MelhorMomentoCompra.c
+│                       └── list02_algorithms
 │
 ├── CMakeLists.txt
 └── README.md
-
+```
 ---
 
 ## 📝 Exercícios Resolvidos
