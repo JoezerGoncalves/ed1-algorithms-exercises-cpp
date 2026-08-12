@@ -7,6 +7,24 @@
 
 #endif //ED1_ALGORITHMS_EXERCISES_CPP_EXER03REVERSESTRING_H
 
+#include <stdio.h>
+
+int main(){
+
+    int N;
+    scanf("%d", &N);
+
+    char ent[N+1];
+    scanf("%s", ent);
+
+    int i;
+    for(i=N-1; i>=0; i--){
+        printf("%c", ent[i]);
+    }
+
+}
+
+
 /*
 Questao 3. Inverter uma String
 
@@ -32,20 +50,3 @@ Explicacao
 . Exemplo 2: Lendo "Hannah"de tras para frente, preservando as maiusculas e minusculas,
 obtemos "hannaH".
 */
-
-#include <stdio.h>
-
-int main(){
-
-    int N;
-    scanf("%d", &N);
-
-    char ent[N+1];
-    scanf("%s", ent);
-
-    int i;
-    for(i=N-1; i>=0; i--){
-        printf("%c", ent[i]);
-    }
-
-}
