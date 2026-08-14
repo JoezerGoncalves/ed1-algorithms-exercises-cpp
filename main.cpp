@@ -1,18 +1,43 @@
 #include <iostream>
+#include <sstream>
 
-// TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+#include "src/main/cpp/dev/joezer/exercises/list01_algorithms/Exer01TwoSum.h"
+#include "src/main/cpp/dev/joezer/exercises/list01_algorithms/Exer02RemoveDuplicates.h"
+#include "src/main/cpp/dev/joezer/exercises/list01_algorithms/Exer03ReverseString.h"
+#include "src/main/cpp/dev/joezer/exercises/list01_algorithms/Exer04MoveZeroes.h"
+#include "src/main/cpp/dev/joezer/exercises/list01_algorithms/Exer05MajorityElement.h"
+#include "src/main/cpp/dev/joezer/exercises/list01_algorithms/Exer06ContagemMariana.h"
+#include "src/main/cpp/dev/joezer/exercises/list01_algorithms/Exer07DatasDuvidosas.h"
+
+using namespace std;
+
+void runExer01TwoSum1() {
+
+    // Entrada do teste
+    istringstream entrada("4 9 2 7 11 15");
+
+    cin.rdbuf(entrada.rdbuf());
+
+    // Executa o exercício
+    exer01TwoSum1();
+}
+
+void runExer01TwoSum2() {
+
+    int vetor1[] = {2, 7, 11, 15};
+    exer01TwoSum2(4, 9, vetor1);
+
+    int vetor2[] = {3, 2, 4};
+    exer01TwoSum2(3, 6, vetor2);
+
+    int vetor3[] = {3, 3};
+    exer01TwoSum2(2, 6, vetor3);
+}
 
 int main() {
-    // TIP Press <shortcut actionId="RenameElement"/> when your caret is at the <b>lang</b> variable name to see how CLion can help you rename it.
 
-    const auto lang = "C++";
-    std::cout << "Hello and welcome to " << lang << "!\n";
-
-    for (int i = 1; i <= 5; i++) {
-        // TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        std::cout << "i = " << i << std::endl;
-    }
+    //runExer01TwoSum1();
+    runExer01TwoSum2();
 
     return 0;
-    // TIP See CLion help at <a href="https://www.jetbrains.com/help/clion/">jetbrains.com/help/clion/</a>. Also, you can try interactive lessons for CLion by selecting 'Help | Learn IDE Features' from the main menu.
 }
