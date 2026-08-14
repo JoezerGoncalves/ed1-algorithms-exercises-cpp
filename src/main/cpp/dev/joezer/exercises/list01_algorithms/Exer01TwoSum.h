@@ -7,32 +7,41 @@
 
 #endif //ED1_ALGORITHMS_EXERCISES_CPP_EXER01TWOSUM_H
 
-#include <stdio.h>
+#include <iostream>
 
-int main() {
+using namespace std;
 
-    int n, target; //tamanho do vetor
+inline void exer01TwoSum1() {
+    int n, target;
 
-    scanf("%d %d", &n, &target);
+    cin >> n >> target;
 
     int vetor[n];
-    int i;
 
-    for(i=0; i<n; i++){
-        scanf("%d", &vetor[i]);
+    for (int i = 0; i < n; i++) {
+        cin >> vetor[i];
     }
-    int j;
 
-    for(i=0; i<n; i++){
-        for(j = i+1; j<n; j++){
-            if(vetor[i]+vetor[j] == target ){
-                printf("%d %d", i, j);
-                return 0;
+    for (int i = 0; i < n; i++) {
+        for (int j = i + 1; j < n; j++) {
+            if (vetor[i] + vetor[j] == target) {
+                cout << i << " " << j << endl;
+                return;
             }
-
         }
     }
+}
 
+inline void exer01TwoSum2(int n, int target, int vetor[]) {
+
+    for (int i = 0; i < n; i++) {
+        for (int j = i + 1; j < n; j++) {
+            if (vetor[i] + vetor[j] == target) {
+                cout << i << " " << j << endl;
+                return;
+            }
+        }
+    }
 }
 
 /*
