@@ -11,6 +11,7 @@
 
 using namespace std;
 
+//entrando com os dados manualmente.....................................
 inline void exer01TwoSum1() {
     int n, target;
 
@@ -32,6 +33,8 @@ inline void exer01TwoSum1() {
     }
 }
 
+
+//dados passados pela main...............................................................
 inline void exer01TwoSum2(int n, int target, int vetor[]) {
 
     for (int i = 0; i < n; i++) {
