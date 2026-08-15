@@ -9,6 +9,12 @@
 #include "src/main/cpp/dev/joezer/exercises/list01_algorithms/Exer06ContagemMariana.h"
 #include "src/main/cpp/dev/joezer/exercises/list01_algorithms/Exer07DatasDuvidosas.h"
 
+#include "src/main/cpp/dev/joezer/exercises/listExtra01_11_08_2026/Exer01SomaCumulativadeVetor.h"
+#include "src/main/cpp/dev/joezer/exercises/listExtra01_11_08_2026/Exer02MelhorMomentoCompraVenda.h"
+#include "src/main/cpp/dev/joezer/exercises/listExtra01_11_08_2026/Exer03RotacaoDeVetorADireita.h"
+#include "src/main/cpp/dev/joezer/exercises/listExtra01_11_08_2026/Exer04ProdutoDeVetorExcetoOProprioElemento.h"
+
+
 using namespace std;
 
 void runExer01TwoSum1() {
