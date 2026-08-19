@@ -28,3 +28,8 @@ int main(){
     }
 
 }
+
+
+// using mamespace std;
+// cin >> *variavel
+// cout << *resultado
